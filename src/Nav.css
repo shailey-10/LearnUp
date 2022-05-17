@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(151, 76, 255);
+    padding: 0 80px;
+    height: 60px;
+    z-index: 1500;
+    position: relative;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-contents{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button-white{
+    background-color: white;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.drawer-item{
+    color: black;
+    text-decoration: none;
+    padding: 20px 0px;
+    padding-left: 50px;
+    transition: 0.5s;
+}
+
+.drawer-item:hover{
+    background-color: rgba(137, 43, 226, 0.246);
+}
